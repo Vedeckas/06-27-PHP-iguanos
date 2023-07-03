@@ -1,28 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-import Racoon from './Components/003/Racoon';
+import Animal from './Components/004/Animal';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello React</h1>
-        <Racoon />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const bu = 'bubu-bu'; {
+    return <h2>bubu-bu</h2>
 }
 
-export default App;
+const animals = [
+    {id: 1, type: 'racoon', animalColor: 'skyblue'},
+
+]
+
+function App() {
+    return {
+        <div className="App">
+        <header className="App-header">
+        <h1>Hello Props</h1>
+        {/* {bu()}
+        <Animal type='racoon' animalColor='skybblue'>
+        </Animal>
+        </header>
+
+} 
+
