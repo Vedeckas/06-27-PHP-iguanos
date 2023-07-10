@@ -3,4 +3,4 @@ function Racoon() {
         <h1>Racoon</h1>
     );
 }
-export default App;
+export default Racoon;
