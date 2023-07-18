@@ -6,11 +6,11 @@ $green: #21897E;
 
 button {
     display: inline-block;
-    padding: .75rem 1.25rem;
+    padding: .75rem 1rem;
     border-radius: 10rem;
     color: $white;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: .15rem;
     transition: all .3s;
     position: relative;
@@ -18,8 +18,8 @@ button {
     z-index: 1;
     border: none;
     cursor: pointer;
-    min-width: 180px;
-    margin: 10px;
+    min-width: 100px;
+    margin: 20px;
 
     &:after {
         content: '';
@@ -47,7 +47,7 @@ button {
     }
 
     &:hover {
-        color: $white;
+        color: $red;
 
         &:before {
             width: 100%;
